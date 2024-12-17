@@ -6,3 +6,6 @@ Aplicar el principio Open/Closed ayuda a crear sistemas robustos y sostenibles. 
 
 #3. Liskov Substitution (LSP)
 Al separar la funcionalidad en interfaces o clases más específicas, como diferenciar animales que pueden caminar de los que no pueden, se asegura que cada subclase cumpla con el "contrato" definido por su clase base. Esto mejora la modularidad, facilita la extensibilidad del código y reduce el riesgo de errores en tiempo de ejecución, promoviendo sistemas más robustos y fáciles de mantene
+
+#4. Interface Segregation Principle (ISP)
+En lugar de tener interfaces grandes y generalizadas, es preferible definir interfaces más pequeñas y específicas que se adapten a las necesidades particulares de cada clase. Esto evita que las clases implementen métodos irrelevantes, lo cual puede llevar a código innecesario, complejidad adicional, y una mayor probabilidad de errores.
