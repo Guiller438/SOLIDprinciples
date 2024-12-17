@@ -9,3 +9,9 @@ Al separar la funcionalidad en interfaces o clases más específicas, como difer
 
 #4. Interface Segregation Principle (ISP)
 En lugar de tener interfaces grandes y generalizadas, es preferible definir interfaces más pequeñas y específicas que se adapten a las necesidades particulares de cada clase. Esto evita que las clases implementen métodos irrelevantes, lo cual puede llevar a código innecesario, complejidad adicional, y una mayor probabilidad de errores.
+
+#4. Interface Segregation Principle (ISP)
+En lugar de tener interfaces grandes y generalizadas, es preferible definir interfaces más pequeñas y específicas que se adapten a las necesidades particulares de cada clase. Esto evita que las clases implementen métodos irrelevantes, lo cual puede llevar a código innecesario, complejidad adicional, y una mayor probabilidad de errores.
+
+#5. Dependency Inversion Principle (DIP)
+Este principio nos ayudó de alguna manera a poder desacoplar el código, lo que nos permitió que las partes del sistema sean más flexibles y fáciles de mantener en caso de ser necesario. Al aplicar DIP, vimos como era posible cambiar o reemplazar implementaciones concretas sin modificar las clases de alto nivel.
