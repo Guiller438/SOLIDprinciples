@@ -3,3 +3,6 @@ El principio Single Responsibility es fundamental porque facilita la refactoriza
 
 #2. Open/Closed Principle (OCP)
 Aplicar el principio Open/Closed ayuda a crear sistemas robustos y sostenibles. Al extender funcionalidades mediante nuevas clases, el código existente se mantiene estable y confiable, promoviendo una arquitectura más limpia y eficiente.
+
+#3. Liskov Substitution (LSP)
+Al separar la funcionalidad en interfaces o clases más específicas, como diferenciar animales que pueden caminar de los que no pueden, se asegura que cada subclase cumpla con el "contrato" definido por su clase base. Esto mejora la modularidad, facilita la extensibilidad del código y reduce el riesgo de errores en tiempo de ejecución, promoviendo sistemas más robustos y fáciles de mantene
